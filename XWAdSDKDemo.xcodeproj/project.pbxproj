@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94527199B1122EE406A6D248 /* libPods-XWAdSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */; };
+		E49759032701C061005DBBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759022701C061005DBBDE /* AppDelegate.m */; };
+		E497590E2701C062005DBBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E497590D2701C062005DBBDE /* Assets.xcassets */; };
+		E49759112701C062005DBBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E497590F2701C062005DBBDE /* LaunchScreen.storyboard */; };
+		E49759142701C062005DBBDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759132701C062005DBBDE /* main.m */; };
+		E49759572701D076005DBBDE /* XWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497591A2701D075005DBBDE /* XWBaseViewController.m */; };
+		E49759582701D076005DBBDE /* XWNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497591D2701D075005DBBDE /* XWNativeViewController.m */; };
+		E49759592701D076005DBBDE /* XWNativeAdVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759212701D075005DBBDE /* XWNativeAdVideoCell.m */; };
+		E497595A2701D076005DBBDE /* XWNativeAdImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759222701D075005DBBDE /* XWNativeAdImageCell.m */; };
+		E497595B2701D076005DBBDE /* XWNativeAdBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759232701D075005DBBDE /* XWNativeAdBaseCell.m */; };
+		E497595C2701D076005DBBDE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759272701D075005DBBDE /* MainViewController.m */; };
+		E497595D2701D076005DBBDE /* XWSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497592A2701D075005DBBDE /* XWSplashViewController.m */; };
+		E497595E2701D076005DBBDE /* XWRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497592D2701D075005DBBDE /* XWRewardVideoViewController.m */; };
+		E497595F2701D076005DBBDE /* XWInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759302701D075005DBBDE /* XWInterstitialViewController.m */; };
+		E49759602701D076005DBBDE /* XWNativeExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759352701D076005DBBDE /* XWNativeExpressViewController.m */; };
+		E49759612701D076005DBBDE /* NSBundle+changeBundleId.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759362701D076005DBBDE /* NSBundle+changeBundleId.m */; };
+		E49759632701D076005DBBDE /* XWDrawVideoAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E497593D2701D076005DBBDE /* XWDrawVideoAdCell.m */; };
+		E49759642701D076005DBBDE /* XWDrawVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497593F2701D076005DBBDE /* XWDrawVideoViewController.m */; };
+		E49759652701D076005DBBDE /* XWDrawVideoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759402701D076005DBBDE /* XWDrawVideoDemoViewController.m */; };
+		E49759662701D076005DBBDE /* XWContentPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759442701D076005DBBDE /* XWContentPageViewController.m */; };
+		E49759672701D076005DBBDE /* XWFullScreenVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759472701D076005DBBDE /* XWFullScreenVideoViewController.m */; };
+		E49759682701D076005DBBDE /* XWContentPageFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497594A2701D076005DBBDE /* XWContentPageFullViewController.m */; };
+		E49759692701D076005DBBDE /* XWEntryElementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497594D2701D076005DBBDE /* XWEntryElementViewController.m */; };
+		E497596A2701D076005DBBDE /* XWNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E497594F2701D076005DBBDE /* XWNoticeViewController.m */; };
+		E497596B2701D076005DBBDE /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759512701D076005DBBDE /* ConfigViewController.m */; };
+		E497596C2701D076005DBBDE /* XWBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759542701D076005DBBDE /* XWBannerViewController.m */; };
+		E497596D2701D076005DBBDE /* LogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759552701D076005DBBDE /* LogoViewController.m */; };
+		E497596E2701D076005DBBDE /* XWUnionTypeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759562701D076005DBBDE /* XWUnionTypeTool.m */; };
+		E49759772701D390005DBBDE /* XWAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E497596F2701D390005DBBDE /* XWAdSDK.framework */; };
+		E49759792701D390005DBBDE /* XWAdSDKAdapterForBD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */; };
+		E497597B2701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759712701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework */; };
+		E497597D2701D390005DBBDE /* XWAdSDKAdapterForGDT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759722701D390005DBBDE /* XWAdSDKAdapterForGDT.framework */; };
+		E497597F2701D390005DBBDE /* XWAdSDKAdapterForIQY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759732701D390005DBBDE /* XWAdSDKAdapterForIQY.framework */; };
+		E49759812701D390005DBBDE /* XWAdSDKAdapterForJD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759742701D390005DBBDE /* XWAdSDKAdapterForJD.framework */; };
+		E49759832701D391005DBBDE /* XWAdSDKAdapterForKS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759752701D390005DBBDE /* XWAdSDKAdapterForKS.framework */; };
+		E49759852701D391005DBBDE /* XWAdSDKAdapterForSIG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */; };
+		E49759882701D77B005DBBDE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E497598A2701D77B005DBBDE /* Localizable.strings */; };
+		E4C48FD92702BF5200F2660B /* XWAdSDKAdapterForLY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B7E7EC76BA22D2D552F4E74 /* Pods-XWAdSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWAdSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E255E91DBACA06E913BD3D /* Pods-XWAdSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E49758FE2701C061005DBBDE /* XWAdSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWAdSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759012701C061005DBBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E49759022701C061005DBBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E497590D2701C062005DBBDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E49759102701C062005DBBDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E49759122701C062005DBBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49759132701C062005DBBDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E497591A2701D075005DBBDE /* XWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWBaseViewController.m; sourceTree = "<group>"; };
+		E497591B2701D075005DBBDE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E497591D2701D075005DBBDE /* XWNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNativeViewController.m; sourceTree = "<group>"; };
+		E497591F2701D075005DBBDE /* XWNativeAdBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNativeAdBaseCell.h; sourceTree = "<group>"; };
+		E49759202701D075005DBBDE /* XWNativeAdImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNativeAdImageCell.h; sourceTree = "<group>"; };
+		E49759212701D075005DBBDE /* XWNativeAdVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNativeAdVideoCell.m; sourceTree = "<group>"; };
+		E49759222701D075005DBBDE /* XWNativeAdImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNativeAdImageCell.m; sourceTree = "<group>"; };
+		E49759232701D075005DBBDE /* XWNativeAdBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNativeAdBaseCell.m; sourceTree = "<group>"; };
+		E49759242701D075005DBBDE /* XWNativeAdVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNativeAdVideoCell.h; sourceTree = "<group>"; };
+		E49759252701D075005DBBDE /* XWNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNativeViewController.h; sourceTree = "<group>"; };
+		E49759262701D075005DBBDE /* LogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoViewController.h; sourceTree = "<group>"; };
+		E49759272701D075005DBBDE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E49759282701D075005DBBDE /* XWUnionTypeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWUnionTypeTool.h; sourceTree = "<group>"; };
+		E497592A2701D075005DBBDE /* XWSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWSplashViewController.m; sourceTree = "<group>"; };
+		E497592B2701D075005DBBDE /* XWSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSplashViewController.h; sourceTree = "<group>"; };
+		E497592D2701D075005DBBDE /* XWRewardVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWRewardVideoViewController.m; sourceTree = "<group>"; };
+		E497592E2701D075005DBBDE /* XWRewardVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWRewardVideoViewController.h; sourceTree = "<group>"; };
+		E49759302701D075005DBBDE /* XWInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInterstitialViewController.m; sourceTree = "<group>"; };
+		E49759312701D075005DBBDE /* XWInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInterstitialViewController.h; sourceTree = "<group>"; };
+		E49759322701D076005DBBDE /* NSBundle+changeBundleId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+changeBundleId.h"; sourceTree = "<group>"; };
+		E49759342701D076005DBBDE /* XWNativeExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNativeExpressViewController.h; sourceTree = "<group>"; };
+		E49759352701D076005DBBDE /* XWNativeExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNativeExpressViewController.m; sourceTree = "<group>"; };
+		E49759362701D076005DBBDE /* NSBundle+changeBundleId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+changeBundleId.m"; sourceTree = "<group>"; };
+		E49759372701D076005DBBDE /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		E497593A2701D076005DBBDE /* XWDrawVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawVideoViewController.h; sourceTree = "<group>"; };
+		E497593B2701D076005DBBDE /* XWDrawVideoDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawVideoDemoViewController.h; sourceTree = "<group>"; };
+		E497593D2701D076005DBBDE /* XWDrawVideoAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawVideoAdCell.m; sourceTree = "<group>"; };
+		E497593E2701D076005DBBDE /* XWDrawVideoAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWDrawVideoAdCell.h; sourceTree = "<group>"; };
+		E497593F2701D076005DBBDE /* XWDrawVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawVideoViewController.m; sourceTree = "<group>"; };
+		E49759402701D076005DBBDE /* XWDrawVideoDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWDrawVideoDemoViewController.m; sourceTree = "<group>"; };
+		E49759412701D076005DBBDE /* XWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWBaseViewController.h; sourceTree = "<group>"; };
+		E49759422701D076005DBBDE /* XWSlotID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSlotID.h; sourceTree = "<group>"; };
+		E49759442701D076005DBBDE /* XWContentPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWContentPageViewController.m; sourceTree = "<group>"; };
+		E49759452701D076005DBBDE /* XWContentPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWContentPageViewController.h; sourceTree = "<group>"; };
+		E49759472701D076005DBBDE /* XWFullScreenVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWFullScreenVideoViewController.m; sourceTree = "<group>"; };
+		E49759482701D076005DBBDE /* XWFullScreenVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWFullScreenVideoViewController.h; sourceTree = "<group>"; };
+		E497594A2701D076005DBBDE /* XWContentPageFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWContentPageFullViewController.m; sourceTree = "<group>"; };
+		E497594B2701D076005DBBDE /* XWEntryElementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWEntryElementViewController.h; sourceTree = "<group>"; };
+		E497594C2701D076005DBBDE /* XWContentPageFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWContentPageFullViewController.h; sourceTree = "<group>"; };
+		E497594D2701D076005DBBDE /* XWEntryElementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWEntryElementViewController.m; sourceTree = "<group>"; };
+		E497594F2701D076005DBBDE /* XWNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWNoticeViewController.m; sourceTree = "<group>"; };
+		E49759502701D076005DBBDE /* XWNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWNoticeViewController.h; sourceTree = "<group>"; };
+		E49759512701D076005DBBDE /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		E49759532701D076005DBBDE /* XWBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWBannerViewController.h; sourceTree = "<group>"; };
+		E49759542701D076005DBBDE /* XWBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWBannerViewController.m; sourceTree = "<group>"; };
+		E49759552701D076005DBBDE /* LogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoViewController.m; sourceTree = "<group>"; };
+		E49759562701D076005DBBDE /* XWUnionTypeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWUnionTypeTool.m; sourceTree = "<group>"; };
+		E497596F2701D390005DBBDE /* XWAdSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForBD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759712701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForCSJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759722701D390005DBBDE /* XWAdSDKAdapterForGDT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForGDT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759732701D390005DBBDE /* XWAdSDKAdapterForIQY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForIQY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759742701D390005DBBDE /* XWAdSDKAdapterForJD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForJD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759752701D390005DBBDE /* XWAdSDKAdapterForKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForSIG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759892701D77B005DBBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E497598B2701D818005DBBDE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForLY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E49758FB2701C061005DBBDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C48FD92702BF5200F2660B /* XWAdSDKAdapterForLY.framework in Frameworks */,
+				E49759852701D391005DBBDE /* XWAdSDKAdapterForSIG.framework in Frameworks */,
+				E497597B2701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework in Frameworks */,
+				94527199B1122EE406A6D248 /* libPods-XWAdSDKDemo.a in Frameworks */,
+				E497597D2701D390005DBBDE /* XWAdSDKAdapterForGDT.framework in Frameworks */,
+				E497597F2701D390005DBBDE /* XWAdSDKAdapterForIQY.framework in Frameworks */,
+				E49759812701D390005DBBDE /* XWAdSDKAdapterForJD.framework in Frameworks */,
+				E49759832701D391005DBBDE /* XWAdSDKAdapterForKS.framework in Frameworks */,
+				E49759792701D390005DBBDE /* XWAdSDKAdapterForBD.framework in Frameworks */,
+				E49759772701D390005DBBDE /* XWAdSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAAE731B9E0676371AA3299E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E7EC76BA22D2D552F4E74 /* Pods-XWAdSDKDemo.debug.xcconfig */,
+				B8E255E91DBACA06E913BD3D /* Pods-XWAdSDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E49758F52701C061005DBBDE = {
+			isa = PBXGroup;
+			children = (
+				E49759002701C061005DBBDE /* XWAdSDKDemo */,
+				E49758FF2701C061005DBBDE /* Products */,
+				CAAE731B9E0676371AA3299E /* Pods */,
+				FE6A3479DC7036E86A467072 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E49758FF2701C061005DBBDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E49758FE2701C061005DBBDE /* XWAdSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E49759002701C061005DBBDE /* XWAdSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E49759492701D076005DBBDE /* entry */,
+				E49759392701D076005DBBDE /* drawvideo */,
+				E49759462701D076005DBBDE /* fullscreenvideo */,
+				E49759432701D076005DBBDE /* content */,
+				E497594E2701D076005DBBDE /* notice */,
+				E49759332701D076005DBBDE /* nativexpress */,
+				E497591C2701D075005DBBDE /* native */,
+				E49759522701D076005DBBDE /* banner */,
+				E497592C2701D075005DBBDE /* rewardvideo */,
+				E497592F2701D075005DBBDE /* interstitial */,
+				E49759292701D075005DBBDE /* splash */,
+				E497591B2701D075005DBBDE /* MainViewController.h */,
+				E49759272701D075005DBBDE /* MainViewController.m */,
+				E49759372701D076005DBBDE /* ConfigViewController.h */,
+				E49759512701D076005DBBDE /* ConfigViewController.m */,
+				E49759262701D075005DBBDE /* LogoViewController.h */,
+				E49759552701D076005DBBDE /* LogoViewController.m */,
+				E49759412701D076005DBBDE /* XWBaseViewController.h */,
+				E497591A2701D075005DBBDE /* XWBaseViewController.m */,
+				E49759422701D076005DBBDE /* XWSlotID.h */,
+				E49759282701D075005DBBDE /* XWUnionTypeTool.h */,
+				E49759562701D076005DBBDE /* XWUnionTypeTool.m */,
+				E49759322701D076005DBBDE /* NSBundle+changeBundleId.h */,
+				E49759362701D076005DBBDE /* NSBundle+changeBundleId.m */,
+				E497598A2701D77B005DBBDE /* Localizable.strings */,
+				E49759012701C061005DBBDE /* AppDelegate.h */,
+				E49759022701C061005DBBDE /* AppDelegate.m */,
+				E497590D2701C062005DBBDE /* Assets.xcassets */,
+				E497590F2701C062005DBBDE /* LaunchScreen.storyboard */,
+				E49759122701C062005DBBDE /* Info.plist */,
+				E49759132701C062005DBBDE /* main.m */,
+			);
+			path = XWAdSDKDemo;
+			sourceTree = "<group>";
+		};
+		E497591C2701D075005DBBDE /* native */ = {
+			isa = PBXGroup;
+			children = (
+				E497591E2701D075005DBBDE /* cell */,
+				E49759252701D075005DBBDE /* XWNativeViewController.h */,
+				E497591D2701D075005DBBDE /* XWNativeViewController.m */,
+			);
+			path = native;
+			sourceTree = "<group>";
+		};
+		E497591E2701D075005DBBDE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E497591F2701D075005DBBDE /* XWNativeAdBaseCell.h */,
+				E49759232701D075005DBBDE /* XWNativeAdBaseCell.m */,
+				E49759202701D075005DBBDE /* XWNativeAdImageCell.h */,
+				E49759222701D075005DBBDE /* XWNativeAdImageCell.m */,
+				E49759242701D075005DBBDE /* XWNativeAdVideoCell.h */,
+				E49759212701D075005DBBDE /* XWNativeAdVideoCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		E49759292701D075005DBBDE /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				E497592B2701D075005DBBDE /* XWSplashViewController.h */,
+				E497592A2701D075005DBBDE /* XWSplashViewController.m */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		E497592C2701D075005DBBDE /* rewardvideo */ = {
+			isa = PBXGroup;
+			children = (
+				E497592E2701D075005DBBDE /* XWRewardVideoViewController.h */,
+				E497592D2701D075005DBBDE /* XWRewardVideoViewController.m */,
+			);
+			path = rewardvideo;
+			sourceTree = "<group>";
+		};
+		E497592F2701D075005DBBDE /* interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				E49759312701D075005DBBDE /* XWInterstitialViewController.h */,
+				E49759302701D075005DBBDE /* XWInterstitialViewController.m */,
+			);
+			path = interstitial;
+			sourceTree = "<group>";
+		};
+		E49759332701D076005DBBDE /* nativexpress */ = {
+			isa = PBXGroup;
+			children = (
+				E49759342701D076005DBBDE /* XWNativeExpressViewController.h */,
+				E49759352701D076005DBBDE /* XWNativeExpressViewController.m */,
+			);
+			path = nativexpress;
+			sourceTree = "<group>";
+		};
+		E49759392701D076005DBBDE /* drawvideo */ = {
+			isa = PBXGroup;
+			children = (
+				E497593C2701D076005DBBDE /* cell */,
+				E497593A2701D076005DBBDE /* XWDrawVideoViewController.h */,
+				E497593F2701D076005DBBDE /* XWDrawVideoViewController.m */,
+				E497593B2701D076005DBBDE /* XWDrawVideoDemoViewController.h */,
+				E49759402701D076005DBBDE /* XWDrawVideoDemoViewController.m */,
+			);
+			path = drawvideo;
+			sourceTree = "<group>";
+		};
+		E497593C2701D076005DBBDE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E497593E2701D076005DBBDE /* XWDrawVideoAdCell.h */,
+				E497593D2701D076005DBBDE /* XWDrawVideoAdCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		E49759432701D076005DBBDE /* content */ = {
+			isa = PBXGroup;
+			children = (
+				E49759452701D076005DBBDE /* XWContentPageViewController.h */,
+				E49759442701D076005DBBDE /* XWContentPageViewController.m */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		E49759462701D076005DBBDE /* fullscreenvideo */ = {
+			isa = PBXGroup;
+			children = (
+				E49759482701D076005DBBDE /* XWFullScreenVideoViewController.h */,
+				E49759472701D076005DBBDE /* XWFullScreenVideoViewController.m */,
+			);
+			path = fullscreenvideo;
+			sourceTree = "<group>";
+		};
+		E49759492701D076005DBBDE /* entry */ = {
+			isa = PBXGroup;
+			children = (
+				E497594C2701D076005DBBDE /* XWContentPageFullViewController.h */,
+				E497594A2701D076005DBBDE /* XWContentPageFullViewController.m */,
+				E497594B2701D076005DBBDE /* XWEntryElementViewController.h */,
+				E497594D2701D076005DBBDE /* XWEntryElementViewController.m */,
+			);
+			path = entry;
+			sourceTree = "<group>";
+		};
+		E497594E2701D076005DBBDE /* notice */ = {
+			isa = PBXGroup;
+			children = (
+				E49759502701D076005DBBDE /* XWNoticeViewController.h */,
+				E497594F2701D076005DBBDE /* XWNoticeViewController.m */,
+			);
+			path = notice;
+			sourceTree = "<group>";
+		};
+		E49759522701D076005DBBDE /* banner */ = {
+			isa = PBXGroup;
+			children = (
+				E49759532701D076005DBBDE /* XWBannerViewController.h */,
+				E49759542701D076005DBBDE /* XWBannerViewController.m */,
+			);
+			path = banner;
+			sourceTree = "<group>";
+		};
+		FE6A3479DC7036E86A467072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */,
+				E497596F2701D390005DBBDE /* XWAdSDK.framework */,
+				E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */,
+				E49759712701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework */,
+				E49759722701D390005DBBDE /* XWAdSDKAdapterForGDT.framework */,
+				E49759732701D390005DBBDE /* XWAdSDKAdapterForIQY.framework */,
+				E49759742701D390005DBBDE /* XWAdSDKAdapterForJD.framework */,
+				E49759752701D390005DBBDE /* XWAdSDKAdapterForKS.framework */,
+				E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */,
+				ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E49758FD2701C061005DBBDE /* XWAdSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E49759172701C062005DBBDE /* Build configuration list for PBXNativeTarget "XWAdSDKDemo" */;
+			buildPhases = (
+				5A0AB0A8259D8708D2E1B5F1 /* [CP] Check Pods Manifest.lock */,
+				E49758FA2701C061005DBBDE /* Sources */,
+				E49758FB2701C061005DBBDE /* Frameworks */,
+				E49758FC2701C061005DBBDE /* Resources */,
+				76116C3A9CB1979BAE12EA46 /* [CP] Embed Pods Frameworks */,
+				E9B16350561BE40DC772EF17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XWAdSDKDemo;
+			productName = XWAdSDKDemo;
+			productReference = E49758FE2701C061005DBBDE /* XWAdSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E49758F62701C061005DBBDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E49758FD2701C061005DBBDE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E49758F92701C061005DBBDE /* Build configuration list for PBXProject "XWAdSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E49758F52701C061005DBBDE;
+			productRefGroup = E49758FF2701C061005DBBDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E49758FD2701C061005DBBDE /* XWAdSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E49758FC2701C061005DBBDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49759112701C062005DBBDE /* LaunchScreen.storyboard in Resources */,
+				E49759882701D77B005DBBDE /* Localizable.strings in Resources */,
+				E497590E2701C062005DBBDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A0AB0A8259D8708D2E1B5F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XWAdSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76116C3A9CB1979BAE12EA46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B16350561BE40DC772EF17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E49758FA2701C061005DBBDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E497595E2701D076005DBBDE /* XWRewardVideoViewController.m in Sources */,
+				E49759612701D076005DBBDE /* NSBundle+changeBundleId.m in Sources */,
+				E497595F2701D076005DBBDE /* XWInterstitialViewController.m in Sources */,
+				E49759592701D076005DBBDE /* XWNativeAdVideoCell.m in Sources */,
+				E49759602701D076005DBBDE /* XWNativeExpressViewController.m in Sources */,
+				E497596A2701D076005DBBDE /* XWNoticeViewController.m in Sources */,
+				E49759572701D076005DBBDE /* XWBaseViewController.m in Sources */,
+				E497596D2701D076005DBBDE /* LogoViewController.m in Sources */,
+				E497596B2701D076005DBBDE /* ConfigViewController.m in Sources */,
+				E49759672701D076005DBBDE /* XWFullScreenVideoViewController.m in Sources */,
+				E497595B2701D076005DBBDE /* XWNativeAdBaseCell.m in Sources */,
+				E49759662701D076005DBBDE /* XWContentPageViewController.m in Sources */,
+				E49759652701D076005DBBDE /* XWDrawVideoDemoViewController.m in Sources */,
+				E497596E2701D076005DBBDE /* XWUnionTypeTool.m in Sources */,
+				E497596C2701D076005DBBDE /* XWBannerViewController.m in Sources */,
+				E497595C2701D076005DBBDE /* MainViewController.m in Sources */,
+				E49759032701C061005DBBDE /* AppDelegate.m in Sources */,
+				E497595D2701D076005DBBDE /* XWSplashViewController.m in Sources */,
+				E49759582701D076005DBBDE /* XWNativeViewController.m in Sources */,
+				E49759142701C062005DBBDE /* main.m in Sources */,
+				E49759632701D076005DBBDE /* XWDrawVideoAdCell.m in Sources */,
+				E49759692701D076005DBBDE /* XWEntryElementViewController.m in Sources */,
+				E49759682701D076005DBBDE /* XWContentPageFullViewController.m in Sources */,
+				E497595A2701D076005DBBDE /* XWNativeAdImageCell.m in Sources */,
+				E49759642701D076005DBBDE /* XWDrawVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E497590F2701C062005DBBDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49759102701C062005DBBDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E497598A2701D77B005DBBDE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E49759892701D77B005DBBDE /* en */,
+				E497598B2701D818005DBBDE /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E49759152701C062005DBBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E49759162701C062005DBBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E49759182701C062005DBBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7E7EC76BA22D2D552F4E74 /* Pods-XWAdSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M73D695JDS;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = XWAdSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unicom.xw08.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E49759192701C062005DBBDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E255E91DBACA06E913BD3D /* Pods-XWAdSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M73D695JDS;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = XWAdSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.unicom.xw08.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E49758F92701C061005DBBDE /* Build configuration list for PBXProject "XWAdSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49759152701C062005DBBDE /* Debug */,
+				E49759162701C062005DBBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E49759172701C062005DBBDE /* Build configuration list for PBXNativeTarget "XWAdSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E49759182701C062005DBBDE /* Debug */,
+				E49759192701C062005DBBDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E49758F62701C061005DBBDE /* Project object */;
+}
