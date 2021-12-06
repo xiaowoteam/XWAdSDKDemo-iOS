@@ -35,13 +35,22 @@
 		E497596C2701D076005DBBDE /* XWBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759542701D076005DBBDE /* XWBannerViewController.m */; };
 		E497596D2701D076005DBBDE /* LogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759552701D076005DBBDE /* LogoViewController.m */; };
 		E497596E2701D076005DBBDE /* XWUnionTypeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759562701D076005DBBDE /* XWUnionTypeTool.m */; };
+		E49759772701D390005DBBDE /* XWAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E497596F2701D390005DBBDE /* XWAdSDK.framework */; };
+		E49759792701D390005DBBDE /* XWAdSDKAdapterForBD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */; };
+		E497597B2701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759712701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework */; };
+		E497597D2701D390005DBBDE /* XWAdSDKAdapterForGDT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759722701D390005DBBDE /* XWAdSDKAdapterForGDT.framework */; };
+		E497597F2701D390005DBBDE /* XWAdSDKAdapterForIQY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759732701D390005DBBDE /* XWAdSDKAdapterForIQY.framework */; };
+		E49759812701D390005DBBDE /* XWAdSDKAdapterForJD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759742701D390005DBBDE /* XWAdSDKAdapterForJD.framework */; };
+		E49759832701D391005DBBDE /* XWAdSDKAdapterForKS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759752701D390005DBBDE /* XWAdSDKAdapterForKS.framework */; };
+		E49759852701D391005DBBDE /* XWAdSDKAdapterForSIG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */; };
 		E49759882701D77B005DBBDE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E497598A2701D77B005DBBDE /* Localizable.strings */; };
+		E4C48FD92702BF5200F2660B /* XWAdSDKAdapterForLY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		505E498E6F9C6C0DBA32337F /* Pods-XWAdSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		5FF7A625131B7CB4E04F76C7 /* Pods-XWAdSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2AEF26EAC390913CDFE558ED /* Pods-XWAdSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWAdSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C557553C886DCB3818284843 /* Pods-XWAdSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E49758FE2701C061005DBBDE /* XWAdSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWAdSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49759012701C061005DBBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E49759022701C061005DBBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,8 +105,17 @@
 		E49759542701D076005DBBDE /* XWBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWBannerViewController.m; sourceTree = "<group>"; };
 		E49759552701D076005DBBDE /* LogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoViewController.m; sourceTree = "<group>"; };
 		E49759562701D076005DBBDE /* XWUnionTypeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWUnionTypeTool.m; sourceTree = "<group>"; };
+		E497596F2701D390005DBBDE /* XWAdSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForBD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759712701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForCSJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759722701D390005DBBDE /* XWAdSDKAdapterForGDT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForGDT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759732701D390005DBBDE /* XWAdSDKAdapterForIQY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForIQY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759742701D390005DBBDE /* XWAdSDKAdapterForJD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForJD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759752701D390005DBBDE /* XWAdSDKAdapterForKS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForKS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForSIG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49759892701D77B005DBBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E497598B2701D818005DBBDE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForLY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,20 +123,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C48FD92702BF5200F2660B /* XWAdSDKAdapterForLY.framework in Frameworks */,
+				E49759852701D391005DBBDE /* XWAdSDKAdapterForSIG.framework in Frameworks */,
+				E497597B2701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework in Frameworks */,
 				94527199B1122EE406A6D248 /* libPods-XWAdSDKDemo.a in Frameworks */,
+				E497597D2701D390005DBBDE /* XWAdSDKAdapterForGDT.framework in Frameworks */,
+				E497597F2701D390005DBBDE /* XWAdSDKAdapterForIQY.framework in Frameworks */,
+				E49759812701D390005DBBDE /* XWAdSDKAdapterForJD.framework in Frameworks */,
+				E49759832701D391005DBBDE /* XWAdSDKAdapterForKS.framework in Frameworks */,
+				E49759792701D390005DBBDE /* XWAdSDKAdapterForBD.framework in Frameworks */,
+				E49759772701D390005DBBDE /* XWAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF3D329832735A35A4FE38DA /* Pods */ = {
+		91D01E321099F60A58FFE429 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5FF7A625131B7CB4E04F76C7 /* Pods-XWAdSDKDemo.debug.xcconfig */,
-				505E498E6F9C6C0DBA32337F /* Pods-XWAdSDKDemo.release.xcconfig */,
+				2AEF26EAC390913CDFE558ED /* Pods-XWAdSDKDemo.debug.xcconfig */,
+				C557553C886DCB3818284843 /* Pods-XWAdSDKDemo.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
+			path = ../Pods;
 			sourceTree = "<group>";
 		};
 		E49758F52701C061005DBBDE = {
@@ -127,7 +155,7 @@
 				E49759002701C061005DBBDE /* XWAdSDKDemo */,
 				E49758FF2701C061005DBBDE /* Products */,
 				FE6A3479DC7036E86A467072 /* Frameworks */,
-				CF3D329832735A35A4FE38DA /* Pods */,
+				91D01E321099F60A58FFE429 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -307,6 +335,15 @@
 		FE6A3479DC7036E86A467072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */,
+				E497596F2701D390005DBBDE /* XWAdSDK.framework */,
+				E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */,
+				E49759712701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework */,
+				E49759722701D390005DBBDE /* XWAdSDKAdapterForGDT.framework */,
+				E49759732701D390005DBBDE /* XWAdSDKAdapterForIQY.framework */,
+				E49759742701D390005DBBDE /* XWAdSDKAdapterForJD.framework */,
+				E49759752701D390005DBBDE /* XWAdSDKAdapterForKS.framework */,
+				E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */,
 				ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */,
 			);
 			name = Frameworks;
@@ -348,7 +385,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E49758F92701C061005DBBDE /* Build configuration list for PBXProject "XWAdSDKDemo" */;
+			buildConfigurationList = E49758F92701C061005DBBDE /* Build configuration list for PBXProject "XWAdSDKDemoDev" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -611,7 +648,7 @@
 		};
 		E49759182701C062005DBBDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF7A625131B7CB4E04F76C7 /* Pods-XWAdSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = 2AEF26EAC390913CDFE558ED /* Pods-XWAdSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -633,7 +670,7 @@
 		};
 		E49759192701C062005DBBDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 505E498E6F9C6C0DBA32337F /* Pods-XWAdSDKDemo.release.xcconfig */;
+			baseConfigurationReference = C557553C886DCB3818284843 /* Pods-XWAdSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -656,7 +693,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E49758F92701C061005DBBDE /* Build configuration list for PBXProject "XWAdSDKDemo" */ = {
+		E49758F92701C061005DBBDE /* Build configuration list for PBXProject "XWAdSDKDemoDev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49759152701C062005DBBDE /* Debug */,
