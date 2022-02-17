@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
 # 添加XWSpecs私库
-source 'https://github.com/xiaowoteam/XWSpecs.git'
+source 'https://gitee.com/xiaowoteam/XWSpecs.git'
 # 添加LYSpecs私库
 source 'https://gitee.com/happytour/LYSpecs.git'
 
