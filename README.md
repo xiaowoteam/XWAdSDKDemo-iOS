@@ -16,7 +16,7 @@
 # Uncomment the next line to define a global platform for your project
 source 'https://github.com/CocoaPods/Specs.git'
 # 添加XWSpecs私库
-source 'https://github.com/xiaowoteam/XWSpecs.git'
+source 'https://gitee.com/xiaowoteam/XWSpecs.git'
 # 添加LYSpecs私库
 source 'https://gitee.com/happytour/LYSpecs.git'
 
@@ -36,17 +36,17 @@ target 'XWAdSDKDemo' do
   pod 'fork-JADYun' , '1.2.4'
   pod 'WechatOpenSDK', '1.8.7.1'
   pod 'fork-KlevinAdSDK', '2.3.0.222'
-  
-  pod 'LYAdSDK13', '2.3.4'
+
+  pod 'LYAdSDK', '2.4.1'
   pod 'LYAdSDKAdapterForCSJ', '2.3.4'
   pod 'LYAdSDKAdapterForGDT', '2.3.3'
-  pod 'LYAdSDKAdapterForKS', '2.3.0'
-  pod 'LYAdSDKAdapterForSIG', '2.3.0'
+  pod 'LYAdSDKAdapterForKS', '2.4.1'
+  pod 'LYAdSDKAdapterForSIG', '2.4.1'
   pod 'LYAdSDKAdapterForIQY', '2.3.0'
-  pod 'LYAdSDKAdapterForBD', '2.3.0'
+  pod 'LYAdSDKAdapterForBD', '2.4.1'
   pod 'LYAdSDKAdapterForJD', '2.3.0'
-  pod 'LYAdSDKAdapterForKLN', '2.3.2'
-  
+  pod 'LYAdSDKAdapterForKLN', '2.4.1'
+
   pod 'XWAdSDK', '1.0.0'
   pod 'XWAdSDKAdapterForCSJ', '1.0.0.1'
   pod 'XWAdSDKAdapterForGDT', '1.0.0.1'
@@ -56,7 +56,7 @@ target 'XWAdSDKDemo' do
   pod 'XWAdSDKAdapterForBD', '1.0.0.1'
   pod 'XWAdSDKAdapterForJD', '1.0.0.1'
   pod 'XWAdSDKAdapterForLY', '1.0.0.1'
-  
+
   project 'XWAdSDKDemo'
 end
 ```
