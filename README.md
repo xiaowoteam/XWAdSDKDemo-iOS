@@ -63,7 +63,7 @@ end
 
 ### 手动接入
 
-请参考对应平台接入文档依次接入，最后将XWAdSDK.framework及对应Adapter的framework拖放到项目。  
+请参考对应平台接入文档依次接入，最后将XWAdSDK.framework及对应Adapter的framework拖放到项目。[下载framework](DOWNLOAD.md)  
 
 点击主工程 -> Build Settings -> 搜索Other Linker Flags -> 在列表中找到Other Linker Flags -> 添加参数-ObjC
 
