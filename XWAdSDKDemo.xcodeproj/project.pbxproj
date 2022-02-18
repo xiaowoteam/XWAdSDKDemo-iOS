@@ -42,6 +42,7 @@
 		505E498E6F9C6C0DBA32337F /* Pods-XWAdSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5FF7A625131B7CB4E04F76C7 /* Pods-XWAdSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWAdSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42AB1F627BE4F50001F61E0 /* XWAdSDKDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XWAdSDKDemo.entitlements; sourceTree = "<group>"; };
 		E49758FE2701C061005DBBDE /* XWAdSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWAdSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49759012701C061005DBBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E49759022701C061005DBBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		E49759002701C061005DBBDE /* XWAdSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E42AB1F627BE4F50001F61E0 /* XWAdSDKDemo.entitlements */,
 				E49759492701D076005DBBDE /* entry */,
 				E49759392701D076005DBBDE /* drawvideo */,
 				E49759462701D076005DBBDE /* fullscreenvideo */,
@@ -615,6 +617,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XWAdSDKDemo/XWAdSDKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M73D695JDS;
@@ -637,6 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XWAdSDKDemo/XWAdSDKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M73D695JDS;
