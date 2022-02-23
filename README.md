@@ -14,7 +14,11 @@
 
 ```ruby
 # Uncomment the next line to define a global platform for your project
+# CocoaPods官方库
 source 'https://github.com/CocoaPods/Specs.git'
+# 清华大学镜像库，如果上面库无法加载请使用下面镜像
+# source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
 # 添加XWSpecs私库
 source 'https://gitee.com/xiaowoteam/XWSpecs.git'
 # 添加LYSpecs私库
