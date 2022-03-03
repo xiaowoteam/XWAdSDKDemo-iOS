@@ -36,7 +36,7 @@ target 'XWAdSDKDemo' do
   pod 'LYAdSDKAdapterForJD', '2.3.0'
   pod 'LYAdSDKAdapterForKLN', '2.4.1'
   
-  pod 'XWAdSDK', '1.0.0'
+  pod 'XWAdSDK', '1.0.5'
   pod 'XWAdSDKAdapterForCSJ', '1.0.0.1'
   pod 'XWAdSDKAdapterForGDT', '1.0.0.1'
   pod 'XWAdSDKAdapterForKS', '1.0.0.1'
