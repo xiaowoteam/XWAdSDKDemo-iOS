@@ -40,7 +40,7 @@ target 'XWAdSDKDemo' do
   pod 'XWAdSDK', '1.0.6'
   pod 'XWAdSDKAdapterForCSJ', '1.0.0.1'
   pod 'XWAdSDKAdapterForGDT', '1.0.0.1'
-  pod 'XWAdSDKAdapterForKS', '1.0.0.1'
+  pod 'XWAdSDKAdapterForKS', '1.0.1'
   pod 'XWAdSDKAdapterForSIG', '1.0.0.2'
   pod 'XWAdSDKAdapterForIQY', '1.0.0.1'
   pod 'XWAdSDKAdapterForBD', '1.0.0.1'
