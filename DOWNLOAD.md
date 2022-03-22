@@ -8,7 +8,7 @@ XWAdSDK
 
 [XWAdSDKAdapterForGDT 1.0.0.1](https://gitee.com/xiaowoteam/XWAdSDKAdapterForGDT.framework/repository/archive/1.0.0.1)
 
-[XWAdSDKAdapterForKS 1.0.0.1](https://gitee.com/xiaowoteam/XWAdSDKAdapterForKS.framework/repository/archive/1.0.0.1)
+[XWAdSDKAdapterForKS 1.0.1](https://gitee.com/xiaowoteam/XWAdSDKAdapterForKS.framework/repository/archive/1.0.1)
 
 [XWAdSDKAdapterForSIG 1.0.0.2](https://gitee.com/xiaowoteam/XWAdSDKAdapterForSIG.framework/repository/archive/1.0.0.2)
 
@@ -20,13 +20,15 @@ XWAdSDK
 
 LYAdSDK
 
-[LYAdSDK 2.4.1](https://gitee.com/happytour/LYAdSDK23.framework/repository/archive/2.4.1)
+[LYAdSDK 2.4.4](https://gitee.com/happytour/LYAdSDK23.framework/repository/archive/2.4.4)
 
 [LYAdSDKAdapterForCSJ 2.3.4](https://gitee.com/happytour/LYAdSDKAdapterForCSJ.framework/repository/archive/2.3.4)
 
 [LYAdSDKAdapterForGDT 2.3.3](https://gitee.com/happytour/LYAdSDKAdapterForGDT.framework/repository/archive/2.3.3)
 
-[LYAdSDKAdapterForKS 2.4.1](https://gitee.com/happytour/LYAdSDKAdapterForKS.framework/repository/archive/2.4.1)
+[LYAdSDKAdapterForKS 2.4.1.1](https://gitee.com/happytour/LYAdSDKAdapterForKS.framework/repository/archive/2.4.1.1)
+
+[LYAdSDKAdapterForKSContent 2.4.1.1](https://gitee.com/happytour/LYAdSDKAdapterForKSContent.framework/repository/archive/2.4.1.1)
 
 [LYAdSDKAdapterForSIG 2.4.1](https://gitee.com/happytour/LYAdSDKAdapterForSIG.framework/repository/archive/2.4.1)
 
