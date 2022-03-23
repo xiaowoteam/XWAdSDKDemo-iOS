@@ -236,6 +236,8 @@ self.adView.delegate = delegate; // adView 广告回调
 self.adView.viewController = vc; // 跳转 VC
 //重要，先调用refreshData，dataObject是XWNativeAdDataObject对象
 [self.adView refreshData:dataObject];
+//在refreshData之后添加view
+[self.adView addSubview:your view];
 ...
 省略 具体渲染逻辑，参见demo
 ...
