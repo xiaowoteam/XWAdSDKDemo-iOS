@@ -14,7 +14,7 @@
     self.adView.viewController = vc; // 跳转 VC
     //一定要先refreshData
     [self.adView refreshData:dataObject];
-    
+    //在refreshData之后添加view
     CGFloat width = CGRectGetWidth([UIScreen mainScreen].bounds) - 20;
     CGFloat bannerHeigh = 52;
     
