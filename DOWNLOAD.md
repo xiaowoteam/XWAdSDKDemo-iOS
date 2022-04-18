@@ -2,7 +2,7 @@
 
 XWAdSDK
 
-[XWAdSDK 1.0.6](https://gitee.com/xiaowoteam/XWAdSDK.framework/repository/archive/1.0.6)
+[XWAdSDK 1.0.7](https://gitee.com/xiaowoteam/XWAdSDK.framework/repository/archive/1.0.7)
 
 [XWAdSDKAdapterForCSJ 1.0.0.1](https://gitee.com/xiaowoteam/XWAdSDKAdapterForCSJ.framework/repository/archive/1.0.0.1)
 

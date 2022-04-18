@@ -52,7 +52,7 @@ target 'XWAdSDKDemo' do
   pod 'LYAdSDKAdapterForJD', '2.3.0'
   pod 'LYAdSDKAdapterForKLN', '2.4.1'
 
-  pod 'XWAdSDK', '1.0.6' #小沃融合
+  pod 'XWAdSDK', '1.0.7' #小沃融合
   pod 'XWAdSDKAdapterForCSJ', '1.0.0.1' #小沃融合穿山甲
   pod 'XWAdSDKAdapterForGDT', '1.0.0.1' #小沃融合广点通
   pod 'XWAdSDKAdapterForKS', '1.0.1' #小沃融合快手
