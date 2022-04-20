@@ -30,8 +30,8 @@ workspace 'XWAdSDKDemo'
 project 'XWAdSDKDemo'
 
 target 'XWAdSDKDemo' do
-  pod 'Ads-CN', '4.0.0.5' #穿山甲官网SDK
-  pod 'GDTMobSDK', '4.13.10' #广点通官网SDK
+  pod 'Ads-CN', '4.3.0.5' #穿山甲官网SDK
+  pod 'GDTMobSDK', '4.13.63' #广点通官网SDK
   pod 'SigmobAd-iOS', '3.2.4' #sigmob官网SDK
   pod 'BaiduMobAdSDK', '4.81' #百度官网SDK
   # KSAdSDKFull、QySdk、JADYun，没有提交到官方库，需要引入XWSpecs私库拉取
@@ -41,7 +41,7 @@ target 'XWAdSDKDemo' do
   pod 'WechatOpenSDK', '1.8.7.1' #微信开放平台SDK，小程序拉活预算
   pod 'fork-KlevinAdSDK', '2.3.0.222' #游可赢官网SDK
 
-  pod 'LYAdSDK', '2.4.4' #LY预算
+  pod 'LYAdSDK', '2.4.5' #LY预算
   pod 'LYAdSDKAdapterForCSJ', '2.4.3'
   pod 'LYAdSDKAdapterForGDT', '2.3.3'
   pod 'LYAdSDKAdapterForKS', '2.4.3'
@@ -52,8 +52,8 @@ target 'XWAdSDKDemo' do
   pod 'LYAdSDKAdapterForJD', '2.3.0'
   pod 'LYAdSDKAdapterForKLN', '2.4.1'
 
-  pod 'XWAdSDK', '1.0.7' #小沃融合
-  pod 'XWAdSDKAdapterForCSJ', '1.0.0.1' #小沃融合穿山甲
+  pod 'XWAdSDK', '1.0.7.1' #小沃融合
+  pod 'XWAdSDKAdapterForCSJ', '1.0.7' #小沃融合穿山甲
   pod 'XWAdSDKAdapterForGDT', '1.0.0.1' #小沃融合广点通
   pod 'XWAdSDKAdapterForKS', '1.0.1' #小沃融合快手
   pod 'XWAdSDKAdapterForSIG', '1.0.0.2' #小沃融合sigmob
@@ -192,7 +192,6 @@ if (...需要自定义底部logo...) {
     bottomView.backgroundColor = [UIColor redColor];
     [self.splashAd showAdInWindow:keyWindow withBottomView:bottomView];
 } else {
-    UIWindow *keyWindow = [UIApplication sharedApplication].windows.firstObject;
     [self.splashAd showAdInWindow:keyWindow];
 }
 ```
@@ -265,6 +264,8 @@ typedef NS_ENUM(NSInteger, XWNativeAdCreativeType) {
     XWNativeAdCreativeType_CSJ_ImagePortrait = (3 << 24) | 16,
     XWNativeAdCreativeType_CSJ_SquareImage = (3 << 24) | 33,//SquareImage Currently it exists only in the oversea now. V3200 add
     XWNativeAdCreativeType_CSJ_SquareVideo = (3 << 24) | 50,//SquareVideo Currently it exists only in the oversea now. V3200 add
+    XWNativeAdCreativeType_CSJ_UnionSplashVideo = (3 << 24) | 154, // Video splash, V3800 add
+    XWNativeAdCreativeType_CSJ_UnionVerticalImage = (3 << 24) | 173, // vertical picture
 };
 
 @interface XWNativeAdDataObject : NSObject

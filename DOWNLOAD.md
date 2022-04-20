@@ -2,9 +2,9 @@
 
 XWAdSDK
 
-[XWAdSDK 1.0.7](https://gitee.com/xiaowoteam/XWAdSDK.framework/repository/archive/1.0.7)
+[XWAdSDK 1.0.7.1](https://gitee.com/xiaowoteam/XWAdSDK.framework/repository/archive/1.0.7.1)
 
-[XWAdSDKAdapterForCSJ 1.0.0.1](https://gitee.com/xiaowoteam/XWAdSDKAdapterForCSJ.framework/repository/archive/1.0.0.1)
+[XWAdSDKAdapterForCSJ 1.0.7](https://gitee.com/xiaowoteam/XWAdSDKAdapterForCSJ.framework/repository/archive/1.0.7)
 
 [XWAdSDKAdapterForGDT 1.0.0.1](https://gitee.com/xiaowoteam/XWAdSDKAdapterForGDT.framework/repository/archive/1.0.0.1)
 
@@ -20,7 +20,7 @@ XWAdSDK
 
 LYAdSDK
 
-[LYAdSDK 2.4.4](https://gitee.com/happytour/LYAdSDK23.framework/repository/archive/2.4.4)
+[LYAdSDK 2.4.5](https://gitee.com/happytour/LYAdSDK23.framework/repository/archive/2.4.5)
 
 [LYAdSDKAdapterForCSJ 2.3.4](https://gitee.com/happytour/LYAdSDKAdapterForCSJ.framework/repository/archive/2.3.4)
 
