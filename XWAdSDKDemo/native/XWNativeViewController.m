@@ -61,7 +61,8 @@
     if (dataObject.creativeType == XWNativeAdCreativeType_GDT_isVideoAd
             || dataObject.creativeType == XWNativeAdCreativeType_CSJ_VideoImage
             || dataObject.creativeType == XWNativeAdCreativeType_CSJ_VideoPortrait
-            || dataObject.creativeType == XWNativeAdCreativeType_CSJ_SquareVideo) {
+            || dataObject.creativeType == XWNativeAdCreativeType_CSJ_SquareVideo
+            || dataObject.creativeType == XWNativeAdCreativeType_CSJ_UnionSplashVideo) {
         return [XWNativeAdVideoCell cellHeightWithNativeAdDataObject:dataObject];
     } else {
         return [XWNativeAdImageCell cellHeightWithNativeAdDataObject:dataObject];
@@ -73,7 +74,8 @@
     if (dataObject.creativeType == XWNativeAdCreativeType_GDT_isVideoAd
         || dataObject.creativeType == XWNativeAdCreativeType_CSJ_VideoImage
         || dataObject.creativeType == XWNativeAdCreativeType_CSJ_VideoPortrait
-        || dataObject.creativeType == XWNativeAdCreativeType_CSJ_SquareVideo) {
+        || dataObject.creativeType == XWNativeAdCreativeType_CSJ_SquareVideo
+        || dataObject.creativeType == XWNativeAdCreativeType_CSJ_UnionSplashVideo) {
         XWNativeAdVideoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"XWNativeAdVideoCell"];
         [cell setupWithNativeAdDataObject:dataObject delegate:self vc:self];
         return cell;
