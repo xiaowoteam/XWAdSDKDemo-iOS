@@ -26,6 +26,15 @@
     return self;
 }
 
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        self.iconImageView = [[UIImageView alloc] init];
+        self.title = [[UILabel alloc] init];
+        self.desc = [[UILabel alloc] init];
+    }
+    return self;
+}
+
 - (void)setupWithNativeAdDataObject:(XWNativeAdDataObject *)dataObject delegate:(id <XWNativeAdViewDelegate>)delegate vc:(UIViewController *)vc {
     self.adView.delegate = delegate; // adView 广告回调
     self.adView.viewController = vc; // 跳转 VC
