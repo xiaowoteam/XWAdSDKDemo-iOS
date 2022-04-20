@@ -84,13 +84,27 @@
 
 - (void)xw_splashAdDidLoad:(XWSplashAd *)splashAd {
     self.window.rootViewController = self.rootController;
-    UIWindow *mainWindow = nil;
-    if (@available(iOS 13.0, *)) {
-        mainWindow = [UIApplication sharedApplication].windows.firstObject;
-    } else {
-        mainWindow = [UIApplication sharedApplication].keyWindow;
-    }
+    UIWindow *mainWindow = [self keyWindow];
     [self.splashAd showAdInWindow:mainWindow];
+}
+
+- (UIWindow*)keyWindow {
+    if ([UIApplication sharedApplication].delegate.window) {
+        return [UIApplication sharedApplication].delegate.window;
+    } else {
+        if (@available(iOS 13.0,*)) {
+            UIWindow *keyWindow = nil;
+            for (UIWindow *window in [UIApplication sharedApplication].windows) {
+                if (window.isKeyWindow) {
+                    keyWindow = window;
+                    break;
+                }
+            }
+            return keyWindow;
+        } else {
+            return [UIApplication sharedApplication].keyWindow;
+        }
+    }
 }
 
 - (void)xw_splashAdDidFailToLoad:(XWSplashAd *)splashAd error:(NSError *)error {
