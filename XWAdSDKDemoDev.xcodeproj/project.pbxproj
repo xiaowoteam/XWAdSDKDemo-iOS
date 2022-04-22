@@ -46,6 +46,7 @@
 		E49759852701D391005DBBDE /* XWAdSDKAdapterForSIG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49759762701D390005DBBDE /* XWAdSDKAdapterForSIG.framework */; };
 		E49759882701D77B005DBBDE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E497598A2701D77B005DBBDE /* Localizable.strings */; };
 		E4C48FD92702BF5200F2660B /* XWAdSDKAdapterForLY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */; };
+		E4DA256D28124A8700AC2959 /* XWAdSDKAdapterForKSContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DA256C28124A8700AC2959 /* XWAdSDKAdapterForKSContent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +119,7 @@
 		E49759892701D77B005DBBDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E497598B2701D818005DBBDE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForLY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DA256C28124A8700AC2959 /* XWAdSDKAdapterForKSContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForKSContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				E4C48FD92702BF5200F2660B /* XWAdSDKAdapterForLY.framework in Frameworks */,
 				E49759852701D391005DBBDE /* XWAdSDKAdapterForSIG.framework in Frameworks */,
 				E497597B2701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework in Frameworks */,
+				E4DA256D28124A8700AC2959 /* XWAdSDKAdapterForKSContent.framework in Frameworks */,
 				94527199B1122EE406A6D248 /* libPods-XWAdSDKDemo.a in Frameworks */,
 				E497597D2701D390005DBBDE /* XWAdSDKAdapterForGDT.framework in Frameworks */,
 				E461987F281023C6002442C6 /* XWAdSDKAdapterForKLN.framework in Frameworks */,
@@ -338,6 +341,7 @@
 		FE6A3479DC7036E86A467072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4DA256C28124A8700AC2959 /* XWAdSDKAdapterForKSContent.framework */,
 				E461987E281023C6002442C6 /* XWAdSDKAdapterForKLN.framework */,
 				E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */,
 				E497596F2701D390005DBBDE /* XWAdSDK.framework */,
