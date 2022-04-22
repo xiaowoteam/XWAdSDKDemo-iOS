@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94527199B1122EE406A6D248 /* libPods-XWAdSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */; };
+		E461987F281023C6002442C6 /* XWAdSDKAdapterForKLN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E461987E281023C6002442C6 /* XWAdSDKAdapterForKLN.framework */; };
 		E49759032701C061005DBBDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E49759022701C061005DBBDE /* AppDelegate.m */; };
 		E497590E2701C062005DBBDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E497590D2701C062005DBBDE /* Assets.xcassets */; };
 		E49759112701C062005DBBDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E497590F2701C062005DBBDE /* LaunchScreen.storyboard */; };
@@ -51,6 +52,7 @@
 		2AEF26EAC390913CDFE558ED /* Pods-XWAdSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ACF8864D14C6A00F15FE99FF /* libPods-XWAdSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWAdSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557553C886DCB3818284843 /* Pods-XWAdSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWAdSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-XWAdSDKDemo/Pods-XWAdSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E461987E281023C6002442C6 /* XWAdSDKAdapterForKLN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XWAdSDKAdapterForKLN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49758FE2701C061005DBBDE /* XWAdSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWAdSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49759012701C061005DBBDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E49759022701C061005DBBDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				E497597B2701D390005DBBDE /* XWAdSDKAdapterForCSJ.framework in Frameworks */,
 				94527199B1122EE406A6D248 /* libPods-XWAdSDKDemo.a in Frameworks */,
 				E497597D2701D390005DBBDE /* XWAdSDKAdapterForGDT.framework in Frameworks */,
+				E461987F281023C6002442C6 /* XWAdSDKAdapterForKLN.framework in Frameworks */,
 				E497597F2701D390005DBBDE /* XWAdSDKAdapterForIQY.framework in Frameworks */,
 				E49759812701D390005DBBDE /* XWAdSDKAdapterForJD.framework in Frameworks */,
 				E49759832701D391005DBBDE /* XWAdSDKAdapterForKS.framework in Frameworks */,
@@ -335,6 +338,7 @@
 		FE6A3479DC7036E86A467072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E461987E281023C6002442C6 /* XWAdSDKAdapterForKLN.framework */,
 				E4C48FD82702BF5200F2660B /* XWAdSDKAdapterForLY.framework */,
 				E497596F2701D390005DBBDE /* XWAdSDK.framework */,
 				E49759702701D390005DBBDE /* XWAdSDKAdapterForBD.framework */,
