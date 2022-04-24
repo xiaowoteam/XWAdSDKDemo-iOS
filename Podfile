@@ -26,11 +26,11 @@ target 'XWAdSDKDemo' do
   pod 'WechatOpenSDK', '1.8.7.1' #微信开放平台SDK，小程序拉活预算
   pod 'fork-KlevinAdSDK', '2.4.1.222' #游可赢官网SDK
 
-  pod 'LYAdSDK', '2.4.5' #LY预算
+  pod 'LYAdSDK', '2.4.6' #LY预算
   pod 'LYAdSDKAdapterForCSJ', '2.4.3'
   pod 'LYAdSDKAdapterForGDT', '2.3.3'
-  pod 'LYAdSDKAdapterForKS', '2.4.3'
-  pod 'LYAdSDKAdapterForKSContent', '2.4.1.1'
+  pod 'LYAdSDKAdapterForKS', '2.4.4'
+  pod 'LYAdSDKAdapterForKSContent', '2.4.4'
   pod 'LYAdSDKAdapterForSIG', '2.4.1'
   pod 'LYAdSDKAdapterForIQY', '2.3.0'
   pod 'LYAdSDKAdapterForBD', '2.4.1'
