@@ -24,7 +24,7 @@ target 'XWAdSDKDemo' do
   pod 'fork-QySdk', '1.3.2' #爱奇艺官网SDK
   pod 'fork-JADYun' , '1.2.4' #京东官网SDK
   pod 'WechatOpenSDK', '1.8.7.1' #微信开放平台SDK，小程序拉活预算
-  pod 'fork-KlevinAdSDK', '2.3.0.222' #游可赢官网SDK
+  pod 'fork-KlevinAdSDK', '2.4.1.222' #游可赢官网SDK
 
   pod 'LYAdSDK', '2.4.5' #LY预算
   pod 'LYAdSDKAdapterForCSJ', '2.4.3'
