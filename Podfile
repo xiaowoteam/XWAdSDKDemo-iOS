@@ -37,15 +37,17 @@ target 'XWAdSDKDemo' do
   pod 'LYAdSDKAdapterForJD', '2.3.0'
   pod 'LYAdSDKAdapterForKLN', '2.4.1'
 
-  pod 'XWAdSDK', '1.0.7.1' #小沃融合
-  pod 'XWAdSDKAdapterForCSJ', '1.0.7' #小沃融合穿山甲
-  pod 'XWAdSDKAdapterForGDT', '1.0.0.1' #小沃融合广点通
-  pod 'XWAdSDKAdapterForKS', '1.0.1' #小沃融合快手
-  pod 'XWAdSDKAdapterForSIG', '1.0.0.2' #小沃融合sigmob
-  pod 'XWAdSDKAdapterForIQY', '1.0.0.1' #小沃融合爱奇艺
-  pod 'XWAdSDKAdapterForBD', '1.0.0.1' #小沃融合百度
-  pod 'XWAdSDKAdapterForJD', '1.0.0.1' #小沃融合JD
-  pod 'XWAdSDKAdapterForLY', '1.0.0.1' #小沃融合LY
+  pod 'XWAdSDK', '1.1.0' #小沃融合
+  pod 'XWAdSDKAdapterForCSJ', '1.1.0' #小沃融合穿山甲
+  pod 'XWAdSDKAdapterForGDT', '1.1.0' #小沃融合广点通
+  pod 'XWAdSDKAdapterForKS', '1.1.0' #小沃融合快手AD
+  pod 'XWAdSDKAdapterForKSContent', '1.1.0' #小沃融合快手内容
+  pod 'XWAdSDKAdapterForSIG', '1.1.0' #小沃融合sigmob
+  pod 'XWAdSDKAdapterForIQY', '1.1.0' #小沃融合爱奇艺
+  pod 'XWAdSDKAdapterForBD', '1.1.0' #小沃融合百度
+  pod 'XWAdSDKAdapterForJD', '1.1.0' #小沃融合JD
+  pod 'XWAdSDKAdapterForKLN', '1.1.0' #小沃融合游可赢
+  pod 'XWAdSDKAdapterForLY', '1.1.0' #小沃融合LY
 
   project 'XWAdSDKDemo' #小沃融合DEMO
 end
