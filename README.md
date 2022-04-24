@@ -39,28 +39,29 @@ target 'XWAdSDKDemo' do
   pod 'fork-QySdk', '1.3.2' #爱奇艺官网SDK
   pod 'fork-JADYun' , '1.2.4' #京东官网SDK
   pod 'WechatOpenSDK', '1.8.7.1' #微信开放平台SDK，小程序拉活预算
-  pod 'fork-KlevinAdSDK', '2.3.0.222' #游可赢官网SDK
+  pod 'fork-KlevinAdSDK', '2.4.1.222' #游可赢官网SDK
 
-  pod 'LYAdSDK', '2.4.5' #LY预算
+  pod 'LYAdSDK', '2.4.6' #LY预算
   pod 'LYAdSDKAdapterForCSJ', '2.4.3'
   pod 'LYAdSDKAdapterForGDT', '2.3.3'
-  pod 'LYAdSDKAdapterForKS', '2.4.3'
-  pod 'LYAdSDKAdapterForKSContent', '2.4.1.1'
+  pod 'LYAdSDKAdapterForKS', '2.4.4'
+  pod 'LYAdSDKAdapterForKSContent', '2.4.4'
   pod 'LYAdSDKAdapterForSIG', '2.4.1'
   pod 'LYAdSDKAdapterForIQY', '2.3.0'
   pod 'LYAdSDKAdapterForBD', '2.4.1'
   pod 'LYAdSDKAdapterForJD', '2.3.0'
   pod 'LYAdSDKAdapterForKLN', '2.4.1'
 
-  pod 'XWAdSDK', '1.0.7.1' #小沃融合
-  pod 'XWAdSDKAdapterForCSJ', '1.0.7' #小沃融合穿山甲
-  pod 'XWAdSDKAdapterForGDT', '1.0.0.1' #小沃融合广点通
-  pod 'XWAdSDKAdapterForKS', '1.0.1' #小沃融合快手
-  pod 'XWAdSDKAdapterForSIG', '1.0.0.2' #小沃融合sigmob
-  pod 'XWAdSDKAdapterForIQY', '1.0.0.1' #小沃融合爱奇艺
-  pod 'XWAdSDKAdapterForBD', '1.0.0.1' #小沃融合百度
-  pod 'XWAdSDKAdapterForJD', '1.0.0.1' #小沃融合JD
-  pod 'XWAdSDKAdapterForLY', '1.0.0.1' #小沃融合LY
+  pod 'XWAdSDK', '1.1.0' #小沃融合
+  pod 'XWAdSDKAdapterForCSJ', '1.1.0' #小沃融合穿山甲
+  pod 'XWAdSDKAdapterForGDT', '1.1.0' #小沃融合广点通
+  pod 'XWAdSDKAdapterForKS', '1.1.0' #小沃融合快手
+  pod 'XWAdSDKAdapterForSIG', '1.1.0' #小沃融合sigmob
+  pod 'XWAdSDKAdapterForIQY', '1.1.0' #小沃融合爱奇艺
+  pod 'XWAdSDKAdapterForBD', '1.1.0' #小沃融合百度
+  pod 'XWAdSDKAdapterForJD', '1.1.0' #小沃融合JD
+  pod 'XWAdSDKAdapterForKLN', '1.1.0' #小沃融合游可赢
+  pod 'XWAdSDKAdapterForLY', '1.1.0' #小沃融合LY
 
   project 'XWAdSDKDemo' #小沃融合DEMO
 end
@@ -266,6 +267,20 @@ typedef NS_ENUM(NSInteger, XWNativeAdCreativeType) {
     XWNativeAdCreativeType_CSJ_SquareVideo = (3 << 24) | 50,//SquareVideo Currently it exists only in the oversea now. V3200 add
     XWNativeAdCreativeType_CSJ_UnionSplashVideo = (3 << 24) | 154, // Video splash, V3800 add
     XWNativeAdCreativeType_CSJ_UnionVerticalImage = (3 << 24) | 173, // vertical picture
+
+    XWNativeAdCreativeType_KS_AdMaterialTypeVideo = (4 << 24) | 1,      // video
+    XWNativeAdCreativeType_KS_AdMaterialTypeSingle = (4 << 24) | 2,      // single image
+    XWNativeAdCreativeType_KS_AdMaterialTypeAtlas = (4 << 24) | 3,      // multiple image
+
+    /// 原生自渲染-横版大图16：9
+    XWNativeAdCreativeType_KLN_HorBigImage = (5 << 24) | 1001,
+    /// 原生自渲染-横版视频16：9
+    XWNativeAdCreativeType_KLN_HorVideo = (5 << 24) | 1002,
+
+    XWNativeAdCreativeType_BD_NORMAL = (6 << 24) | 0, // 一般图文或图片广告
+    XWNativeAdCreativeType_BD_VIDEO = (6 << 24) | 1, // 视频广告，需开发者增加播放器支持
+    XWNativeAdCreativeType_BD_HTML = (6 << 24) | 2, // html模版广告
+    XWNativeAdCreativeType_BD_GIF = (6 << 24) | 3 //GIF广告
 };
 
 @interface XWNativeAdDataObject : NSObject
