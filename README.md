@@ -56,6 +56,7 @@ target 'XWAdSDKDemo' do
   pod 'XWAdSDKAdapterForCSJ', '1.1.0' #小沃融合穿山甲
   pod 'XWAdSDKAdapterForGDT', '1.1.0' #小沃融合广点通
   pod 'XWAdSDKAdapterForKS', '1.1.0' #小沃融合快手
+  pod 'XWAdSDKAdapterForKSContent', '1.1.0' #小沃融合快手内容
   pod 'XWAdSDKAdapterForSIG', '1.1.0' #小沃融合sigmob
   pod 'XWAdSDKAdapterForIQY', '1.1.0' #小沃融合爱奇艺
   pod 'XWAdSDKAdapterForBD', '1.1.0' #小沃融合百度
